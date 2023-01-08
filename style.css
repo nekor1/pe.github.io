@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.headers{
+    display: flex;
+    margin: auto;
+    color:white;
+    justify-content: space-around;
+    background-image: url("project/images/Снимок экрана (227).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-image: url("project/images/image\ 4.png");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1800px;
+    height: 1000px;
+    padding: 50px;
+    position: relative;
+}
+
+.text{
+    padding: 20px;
+    background-color:  #C3C8A6;
+    width: 800px;
+    height: 850px;
+    font-size: large;
+    justify-content: center;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+
+
