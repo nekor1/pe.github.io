@@ -37,32 +37,37 @@ main{
 
 .dota2:hover{
     margin: 0 10px 10px 0;
-    border-left:5px inset rgb(178, 46, 46);
-    border-right:5px inset rgb(178, 46, 46);
-    border-bottom:5px inset rgb(178, 46, 46);
-    border-top:5px inset rgb(178, 46, 46);
+    border-left:5px inset rgb(178, 46, 46, 0);
+    border-right:5px inset rgb(178, 46, 46, 0);
+    border-bottom:5px inset rgb(178, 46, 46, 0);
+    border-top:5px inset rgb(178, 46, 46, 0);
 }
 
 .page:hover{
     margin: 0 10px 10px 0;
-    border-left:5px solid rgb(63, 133, 56);
-    border-right:5px solid rgb(63, 133, 56);
-    border-bottom:5px solid rgb(63, 133, 56);
-    border-top:5px solid rgb(63, 133, 56);
+    border-left:5px solid rgb(63, 133, 56, 0);
+    border-right:5px solid rgb(63, 133, 56, 0);
+    border-bottom:5px solid rgb(63, 133, 56, 0);
+    border-top:5px solid rgb(63, 133, 56, 0);
 }
 
 .sup:hover{
     margin: 0 10px 10px 0;
-    border-left:5px double rgb(39, 58, 153);
-    border-right:5px double rgb(39, 58, 153);
-    border-bottom:5px double rgb(39, 58, 153);
-    border-top:5px double rgb(39, 58, 153);
+    border-left:5px double rgb(39, 58, 153, 0);
+    border-right:5px double rgb(39, 58, 153, 0);
+    border-bottom:5px double rgb(39, 58, 153, 0);
+    border-top:5px double rgb(39, 58, 153, 0);
 }
 
 .info:hover{
     margin: 0 10px 10px 0;
-    border-left:5px dotted rgb(173, 50, 139);
-    border-right:5px dotted rgb(173, 50, 139);
-    border-bottom:5px dotted rgb(173, 50, 139);
-    border-top:5px dotted rgb(173, 50, 139);
+    border-left:5px dotted rgb(173, 50, 139, 0);
+    border-right:5px dotted rgb(173, 50, 139, 0);
+    border-bottom:5px dotted rgb(173, 50, 139, 0);
+    border-top:5px dotted rgb(173, 50, 139, 0);
+}
+
+.text1{
+    justify-content: center
+    font-size="100"
 }
